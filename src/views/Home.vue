@@ -2,6 +2,7 @@
   <div class="page">
     <h1>首页</h1>
     <p>欢迎使用 Vue 2 项目，已配置可在 Vercel 上部署。</p>
+    <p class="badge">✨ 本次更新由自动部署发布</p>
   </div>
 </template>
 
@@ -25,5 +26,13 @@ h1 {
 p {
   color: #666;
   line-height: 1.6;
+}
+.badge {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #fff;
+  border-radius: 6px;
+  font-size: 0.9rem;
 }
 </style>
